@@ -102,7 +102,7 @@ def extractFeature(patches, feature_extractor):
 # Load Classifier (ResNet50 extractor + SVC)
 #-----------------------------------------------------------------------------#
 @st.cache_resource(show_spinner = False)                               # 👈 Add the caching decorator
-def Classifier():
+def classifier():
     model = pickle.load(open('./model/best_resnet_svc.pickle', "rb"))
     return model
 

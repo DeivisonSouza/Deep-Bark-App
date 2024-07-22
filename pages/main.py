@@ -6,7 +6,7 @@ from utils import (
     set_background,
     createPatches,
     featureExtractor,
-    Classifier,
+    classifier,
     predition,
     extractFeature
 )
@@ -116,7 +116,7 @@ with col1:
         
          with st.spinner('Please wait! Making predictions on patches using the SVC model...'):
            # Load Classifier (ResNet50 extractor + SVC)
-           model = Classifier()
+           model = classifier()
 
            # Class predicted and probabilities (patches)
            df = predition(model = model, feature = feature)
