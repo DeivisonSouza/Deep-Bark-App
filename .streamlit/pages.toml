@@ -1,0 +1,26 @@
+[[pages]]
+path = "home.py"
+name = "Home"
+icon = "🏠"
+
+[[pages]]
+path = "pages/main.py"
+name = "Deep Bark Web App"
+icon = "🌳"
+
+[[pages]]
+path = "pages/sample.py"
+name = "Bark Samples"
+icon = "🪵"
+
+[[pages]]
+path = "pages/herb.py"
+name = "Herbarium"
+icon = "🍃"
+
+[[pages]]
+path = "pages/map.py"
+name = "Location of Trees"
+icon = "🗺️"
+
+
