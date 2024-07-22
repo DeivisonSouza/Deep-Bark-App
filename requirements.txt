@@ -7,4 +7,4 @@ tensorflow
 keras
 st-annotated-text
 python-utils
-sklearn
+scikit-learn
