@@ -1,7 +1,17 @@
 import streamlit as st
 import cv2
 import numpy as np
-from util import set_background, createPatches, featureExtractor, Classifier, predition, extractFeature
+
+from utils import (
+    set_background,
+    createPatches,
+    featureExtractor,
+    Classifier,
+    predition,
+    extractFeature
+)
+
+#from util import set_background, createPatches, featureExtractor, Classifier, predition, extractFeature
 from annotated_text import annotated_text, annotation
 
 st.set_page_config(#page_title = 'Home', 
