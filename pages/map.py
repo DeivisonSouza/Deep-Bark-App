@@ -5,8 +5,8 @@ import folium
 from folium import plugins
 from folium import GeoJson
 import json
-from util import Geojson
-from util import set_background
+from utils import Geojson
+from utils import set_background
 
 st.set_page_config(#page_title = 'Home', 
                    #page_icon = "👋", 

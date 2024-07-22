@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from util import set_background
+from utils import set_background
 
 st.set_page_config(#page_title = 'Home', 
                    #page_icon = "👋", 
