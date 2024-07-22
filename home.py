@@ -1,6 +1,6 @@
 import streamlit as st
-#from util import set_background
-#from st_pages import show_pages_from_config, add_page_title
+from util import set_background
+from st_pages import show_pages_from_config, add_page_title
 from PIL import Image
 #from streamlit_extras.app_logo import add_logo
 
