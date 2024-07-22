@@ -10,7 +10,7 @@ from keras.models import load_model, Model
 from keras.layers import GlobalAveragePooling2D
 import keras
 import pickle
-from streamlit_extras.app_logo import add_logo
+#from streamlit_extras.app_logo import add_logo
 from folium import GeoJson
 import json
 
