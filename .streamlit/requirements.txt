@@ -2,4 +2,4 @@ st_pages
 streamlit
 folium
 streamlit_folium
-cv2
+opencv-python-headless
