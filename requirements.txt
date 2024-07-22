@@ -3,3 +3,4 @@ streamlit
 folium
 streamlit_folium
 opencv-python-headless
+keras
