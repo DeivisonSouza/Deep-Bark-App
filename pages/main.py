@@ -52,7 +52,7 @@ st.markdown("<h3 style='text-align: left; color: darkgreen;'>🌳DEEP BARK APP  
 
 # Set header
 #st.header('(A System to Recognize Tree Species in Sustainable Forest Management, Amazon, Brazil)')
-st.markdown("<h3 style='text-align: left; color: darkgreen;'>(A System to Recognize Tree Species in Sustainable Forest Management Based on Bark Images, Amazon, Brazil)</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: justify; color: darkgreen;'>(A System to Recognize Tree Species in Sustainable Forest Management Based on Bark Images, Amazon, Brazil)</h3>", unsafe_allow_html=True)
 #st.markdown("<h3 style='text-align: center; color: darkgreen;'>(Um Sistema para Reconhecer Espécies Arbóreas no Manejo Florestal Sustentável Baseado em Imagens de Casca, Amazônia, Brasil)</h3>", unsafe_allow_html=True)
 
 st.markdown("""---""")
