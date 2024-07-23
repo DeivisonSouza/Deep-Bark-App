@@ -89,7 +89,7 @@ with col1:
   #                                  type = ['jpeg', 'png', 'jpg'],
   #                                  label_visibility = 'hidden')
    st.subheader(':blue[Upload bark image]')
-   file = st.file_uploader(label = 'Upload bark image',
+   file = st.file_uploader(label = '',
                            type = ['jpeg', 'png', 'jpg'],
                            #label_visibility = 'visible'
                            )
