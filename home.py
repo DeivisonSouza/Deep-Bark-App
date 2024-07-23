@@ -55,7 +55,7 @@ st.write("# Welcome! 👋")
 
 # Contextualização
 #st.title(""" 👉 SOBRE A APLICAÇÃO WEB """)
-st.title(""" 👉 WEB APPLICATION - DEEP BARK""")
+st.subheader("""🌳:green[DEEP BARK PROJECT]""")
 
 # st.markdown(
 # """
@@ -68,7 +68,7 @@ st.title(""" 👉 WEB APPLICATION - DEEP BARK""")
 
 # Procópio e Secco (2008), reportaram agrupamento de espécies ao estudarem a identificação de árvores denominadas “Tauari” em áreas manejadas nos pólos madeireiros central e leste do Estado do Pará. Por exemplo, no pólo central, Couratari guianensis agruparam três espécies: *Couratari guianensis*, *C. oblongifolia* e *C. stellata*. Lacerda e Nimmo (2010), também reportaram que 43,5% (132 espécies) de todas as espécies identificadas por descrição botânica, não constavam na identificação de árvores realizada no IF-100%. 
 
-# Nesse contexto, emergiu o **"Projeto DeepBark – Aprendizado Profundo para Reconhecer Espécies de Árvores no Manejo Florestal Madeireiro na Amazônia Brasileira"**, cujo objetivo foi desenvolver uma aplicação web, baseada em inteligência artificial e visão computacional, para reconhecer árvores de espécies de valor comercial em censos florestais, no âmbito do MFS para fins madeireiros. O classificador disponibilizado nesta aplicação web possui acurácia estimada de 95% e pode ser usado para reconhecer 16 espécies de valor comercial madeireiro (ver lista de espécies). 
+# Nesse contexto, emergiu o **"Projeto Deep Bark – Aprendizado Profundo para Reconhecer Espécies de Árvores no Manejo Florestal Madeireiro na Amazônia Brasileira"**, cujo objetivo foi desenvolver uma aplicação web, baseada em inteligência artificial e visão computacional, para reconhecer árvores de espécies de valor comercial em censos florestais, no âmbito do MFS para fins madeireiros. O classificador disponibilizado nesta aplicação web possui acurácia estimada de 95% e pode ser usado para reconhecer 16 espécies de valor comercial madeireiro (ver lista de espécies). 
 
 # Esta aplicação pode ser usada como uma ferramenta auxiliar na identificação de árvores no MFS para fins madeireiros, por identificadores botânicos, técnicos de órgãos ambientais e leigos. Destarte, espera-se contribuir para o aumento da acurácia na identificação de espécies, em especial, daquelas mais confundidas e, por conseguinte, minimizar os impactos ecológicos e econômicos originados pelos erros de identificação de espécies no IF100%. Por fim, esta tecnologia tem potencial para contribuir no refinamento da identificação de espécies em diferentes regiões da Amazônia.
 # """
@@ -77,7 +77,7 @@ st.title(""" 👉 WEB APPLICATION - DEEP BARK""")
 st.markdown(
 """
 ----------------------------------
-#### 🔎**CONTEXTUALIZATION**
+##### 🔎**CONTEXTUALIZATION**
 
 Within the scope of Sustainable Forest Management (SFM) for timber purposes, the 100% forest inventory (IF100%), also known as the forest census, is a fundamental pre-exploratory activity. It is essential for identifying the productive potential of the forest, regulating forest production, and defining operational strategies for both exploratory and post-exploratory stages. Through IF100%, trees of economic interest (and potential value) with a pre-established minimum diameter are identified in the forest. These trees receive an identification plate, their locations are determined using GPS (Global Positioning System), and they are commonly identified by their vernacular names.
 
@@ -85,7 +85,7 @@ The identification of flora species is undoubtedly one of the main challenges of
 
 Procópio and Secco (2008) reported the grouping of species when studying the identification of trees called "Tauari" in managed areas in the central and eastern logging poles of the State of Pará. For example, in the central pole, *Couratari guianensis* grouped three species: *Couratari guianensis*, *C. oblongifolia*, and *C. stellata*. Lacerda and Nimmo (2010) also reported that 43.5% (132 species) of all species identified by botanical description were not included in the tree identification carried out in the IF-100%.
 
-In this context, the "**DeepBark Project – Deep Learning to Recognize Tree Species in Timber Forest Management in the Brazilian Amazon**" emerged. The objective of this project was to develop a web application, based on artificial intelligence and computer vision, to recognize trees of commercially valuable species in forest censuses, within the scope of SFM for timber purposes. **The classifier available in this web application has an estimated accuracy of 95% and can be used to recognize 16 species of commercial timber value.**
+In this context, the "**Deep Bark Project – Deep Learning to Recognize Tree Species in Timber Forest Management in the Brazilian Amazon**" emerged. The objective of this project was to develop a web application, based on artificial intelligence and computer vision, to recognize trees of commercially valuable species in forest censuses, within the scope of SFM for timber purposes. **The classifier available in this web application has an estimated accuracy of 95% and can be used to recognize 16 species of commercial timber value.**
 
 This application can serve as an auxiliary tool for identifying trees in the SFM for logging purposes. It can be used by botanical identifiers, environmental agency technicians, and laypeople. It is expected to enhance accuracy in species identification, particularly for commonly misidentified species, thus minimizing the ecological and economic impacts of identification errors in IF100%. Ultimately, this technology has the potential to improve species identification across various regions of the Amazon.
 """
@@ -95,7 +95,7 @@ This application can serve as an auxiliary tool for identifying trees in the SFM
 st.markdown(
 """
 -----------------------------------------
-#### 📷**AMAZON BARK DATASET**
+##### 📷**AMAZON BARK DATASET**
 
 The bark images (rhytidome) were collected from three SFM Demonstration Units designated for timber purposes. These units are located in three municipalities in the state of Mato Grosso, Brazil: i) Fazenda Pérola in Nova Maringá, ii) Fazenda Boa Esperança in Feliz Natal, and iii) Fazenda São Nicolau in Cotriguaçu. 
 
@@ -129,7 +129,7 @@ st.write("👉 **Master's thesis**[📓](https://ppgbc.propesp.ufpa.br/ARQUIVOS/
 st.markdown(
 """
 ----------------------------------
-#### 🌳**RECOGNITION MODEL**
+##### 🤖**RECOGNITION MODEL**
 
 This web application uses a classifier (with an estimated accuracy of 95%) learned using the Support Vector Machine (SVM) algorithm and ResNet50, a pre-trained Convolutional Neural Network (CNN), as a feature extractor from digital images of tree bark. The approach of using pre-trained networks is known as Transfer Learning. The model predictions follow these steps:
 - **1 - Resizing**: High-resolution images are resized by 20%;
@@ -159,7 +159,7 @@ This web application uses a classifier (with an estimated accuracy of 95%) learn
 st.markdown(
 """
 ----------------------------------
-#### 👨🏻‍💻**PROJECT AND TEAM**
+##### 👨🏻‍💻**PROJECT AND TEAM**
 
 The project began in July 2022, with the signing of a Cooperation Agreement between the **Center for Wood-Producing and Exporting Industries of the State of Mato Grosso (CIPEM)**, the project financier, and the **Federal University of Pará (UFPA)**, with administrative and financial intervention by the **Research Support and Development Foundation (FADESP)**.
 
@@ -200,7 +200,7 @@ The project has a team of experts from four institutions:
 
 st.markdown(
 """
-#### 🏫**INSTITUITIONS**
+##### 🏫**INSTITUITIONS**
 """
 )
 
