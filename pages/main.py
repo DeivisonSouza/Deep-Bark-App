@@ -45,6 +45,13 @@ st.markdown("""
 # Set background (config.toml)
 set_background('./bgs/background.png')
 
+# Insert image on sidebar
+#images = ['./logo/LMFTCA.png', './logo/ufpa.png']
+st.sidebar.image('./logo/image.png', use_column_width = True)
+st.sidebar.write('Developed by:')
+st.sidebar.markdown('[Deivison Venicio Souza (UFPA)](https://github.com/DeivisonSouza)')
+st.sidebar.markdown('[Natally Celestino Gama (Forest Engineer)](https://github.com/DeivisonSouza)')
+
 # Set title
 st.markdown("<h3 style='text-align: left; color: darkgreen;'>🌳DEEP BARK APP       𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅</h3>", unsafe_allow_html=True)
 
