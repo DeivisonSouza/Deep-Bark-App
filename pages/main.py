@@ -95,7 +95,7 @@ with col1:
    #st.set_option('deprecation.showfileUploaderEncoding', False)
 
    if file is not None:
-     # st.header(':blue[Please upload a bark tree image]')
+     st.header(':blue[Please upload a bark tree image]')
      # else:
      # st.write("Filename: ", file.name)                              # write filename
      f = file.read()                                                  # read image
