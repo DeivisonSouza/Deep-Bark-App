@@ -91,7 +91,7 @@ with col1:
    
    file = st.file_uploader(label = 'Upload bark image',
                            type = ['jpeg', 'png', 'jpg'],
-                           label_visibility = 'hidden')
+                           label_visibility = 'visible')
    #st.set_option('deprecation.showfileUploaderEncoding', False)
 
    if file is not None:
