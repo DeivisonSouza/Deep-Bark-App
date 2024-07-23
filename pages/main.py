@@ -91,7 +91,8 @@ with col1:
    st.subheader(':blue[Upload bark image]')
    file = st.file_uploader(label = 'Upload bark image',
                            type = ['jpeg', 'png', 'jpg'],
-                           label_visibility = 'hiden')
+                           #label_visibility = 'visible'
+                           )
    #st.set_option('deprecation.showfileUploaderEncoding', False)
 
    if file is not None:
