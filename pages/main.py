@@ -64,6 +64,7 @@ st.info(
 The model available in this system was trained to **recognize only 16 commercial wood species from the Brazilian Amazon** (see the list of species in '**Herbarium**' and bark samples in '**Bark Samples**'). If images of bark from other species are used, the system will classify the image as belonging to one of the 16 species (most likely the one with the greatest similarity). This alert is important, as users might present images of bark from other species to the system. Therefore, it is crucial to expand the set of images to include new species and increase the representativeness of specimens. This should take into account the various factors that can cause variations in the external bark of trees, aiming to build a more generalist model.
 
 """
+
 )
 
 # st.markdown(
@@ -151,6 +152,15 @@ with col1:
            st.write(f"**Patches** = The number of patches (each 256 x 256 pixels) classified as belonging to a specific class (species). The class of each patch is determined by the highest class probability value. ")
            st.write(f"**Sum** = The sum of the maximum probabilities of the predicted class.")
            st.write(f"**Rank** = The order of predicted classes (species) based on the highest sum of probabilities.")
+           
+           st.info(
+                  """
+                  **Patches** = The number of patches (each 256 x 256 pixels) classified as belonging to a specific class (species). The class of each patch is determined by the highest class probability value.
+                  
+                  **Patches** = The number of patches (each 256 x 256 pixels) classified as belonging to a specific class (species). The class of each patch is determined by the highest class probability value.
+                  """
+                  )
+           
            st.markdown("""---""")
 # with col2:
 #    st.write('')
