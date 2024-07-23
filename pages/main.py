@@ -53,9 +53,10 @@ st.title(""" 👉 DEEP BARK WEB APP """)
 st.markdown("<h3 style='text-align: left; color: darkgreen;'>(A System to Recognize Tree Species in Sustainable Forest Management Based on Bark Images, Amazon, Brazil)</h3>", unsafe_allow_html=True)
 #st.markdown("<h3 style='text-align: center; color: darkgreen;'>(Um Sistema para Reconhecer Espécies Arbóreas no Manejo Florestal Sustentável Baseado em Imagens de Casca, Amazônia, Brasil)</h3>", unsafe_allow_html=True)
 
-st.markdown(
+st.markdown("""---""")
+
+st.info(
 """
-----------------------------------
 #### ⚠️**IMPORTANT!**
 
 The model available in this system was trained to **recognize only 16 commercial wood species from the Brazilian Amazon** (see the list of species in '**Herbarium**' and bark samples in '**Bark Samples**'). If images of bark from other species are used, the system will classify the image as belonging to one of the 16 species (most likely the one with the greatest similarity). This alert is important, as users might present images of bark from other species to the system. Therefore, it is crucial to expand the set of images to include new species and increase the representativeness of specimens. This should take into account the various factors that can cause variations in the external bark of trees, aiming to build a more generalist model.
