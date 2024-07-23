@@ -50,14 +50,13 @@ show_pages_from_config()
 # Set title page
 #st.write("# Seja bem vindo(a)! 👋")
 st.write("# Welcome! 👋")
-
 #st.sidebar.success("Select a option above.")
 
 # Contextualização
 #st.title(""" 👉 SOBRE A APLICAÇÃO WEB """)
-st.markdown("<h5 style='text-align: left; color: darkgreen;'>🌳DEEP BARK PROJECT</h5>", unsafe_allow_html=True)
-#st.markdown("#### 🌳:green[DEEP BARK PROJECT]")
-#st.subheader("🌳:green[DEEP BARK PROJECT]")
+st.markdown("""🌲🌳🌿‧₊˚ ⋅🌿🌱𓂃 ࣪ ִֶָ.🌲🌳🌿‧₊˚ ⋅🌿🌱𓂃 ࣪ ִֶָ.🌲🌳🌿‧₊˚ ⋅🌿🌱𓂃 ࣪ ִֶָ.🌲""")
+st.markdown("<h4 style='text-align: left; color: darkgreen;'>🌳DEEP BARK PROJECT</h4>", unsafe_allow_html=True)
+st.markdown("""🌲🌳🌿‧₊˚ ⋅🌿🌱𓂃 ࣪ ִֶָ.🌲🌳🌿‧₊˚ ⋅🌿🌱𓂃 ࣪ ִֶָ.🌲🌳🌿‧₊˚ ⋅🌿🌱𓂃 ࣪ ִֶָ.🌲""")
 
 # st.markdown(
 # """
@@ -78,7 +77,6 @@ st.markdown("<h5 style='text-align: left; color: darkgreen;'>🌳DEEP BARK PROJE
 
 st.markdown(
 """
-----------------------------------
 ##### 🔎**CONTEXTUALIZATION**
 
 Within the scope of Sustainable Forest Management (SFM) for timber purposes, the 100% forest inventory (IF100%), also known as the forest census, is a fundamental pre-exploratory activity. It is essential for identifying the productive potential of the forest, regulating forest production, and defining operational strategies for both exploratory and post-exploratory stages. Through IF100%, trees of economic interest (and potential value) with a pre-established minimum diameter are identified in the forest. These trees receive an identification plate, their locations are determined using GPS (Global Positioning System), and they are commonly identified by their vernacular names.
