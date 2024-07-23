@@ -84,18 +84,17 @@ st.markdown("""---""")
 col1, col2 = st.columns([0.6, 0.4], gap = "medium")
 
 with col1:
-   # upload image
+  # upload image
   #  file = st.sidebar.file_uploader(label = 'Upload bark image',
   #                                  type = ['jpeg', 'png', 'jpg'],
   #                                  label_visibility = 'hidden')
-   
+   st.subheader(':blue[Upload bark image]')
    file = st.file_uploader(label = 'Upload bark image',
                            type = ['jpeg', 'png', 'jpg'],
-                           label_visibility = 'visible')
+                           label_visibility = 'hiden')
    #st.set_option('deprecation.showfileUploaderEncoding', False)
 
    if file is not None:
-     st.header(':blue[Please upload a bark tree image]')
      # else:
      # st.write("Filename: ", file.name)                              # write filename
      f = file.read()                                                  # read image
