@@ -55,7 +55,8 @@ st.write("# Welcome! 👋")
 
 # Contextualização
 #st.title(""" 👉 SOBRE A APLICAÇÃO WEB """)
-st.subheader("""🌳:green[DEEP BARK PROJECT]""")
+st.markdown("#### 🌳:green[DEEP BARK PROJECT]")
+#st.subheader("🌳:green[DEEP BARK PROJECT]")
 
 # st.markdown(
 # """
