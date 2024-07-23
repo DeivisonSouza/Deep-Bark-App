@@ -100,6 +100,7 @@ with col1:
                            type = ['jpeg', 'png'],
                            #label_visibility = 'visible'
                            )
+   st.markdown("𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅")
    #st.set_option('deprecation.showfileUploaderEncoding', False)
 
    if file is not None:
