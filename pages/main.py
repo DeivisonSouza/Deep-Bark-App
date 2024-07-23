@@ -46,7 +46,9 @@ st.markdown("""
 set_background('./bgs/background.png')
 
 # Set title
-st.title(""" 👉 DEEP BARK WEB APP """)
+st.markdown("<h3 style='text-align: left; color: darkgreen;'>🌳DEEP BARK APP       𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅</h3>", unsafe_allow_html=True)
+st.write("######")
+#st.title(""" 👉 DEEP BARK WEB APP """)
 
 # Set header
 #st.header('(A System to Recognize Tree Species in Sustainable Forest Management, Amazon, Brazil)')
