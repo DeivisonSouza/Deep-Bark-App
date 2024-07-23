@@ -90,7 +90,7 @@ with col1:
   #                                  label_visibility = 'hidden')
    st.write('##### :blue[**Upload bark image**]')
    file = st.file_uploader(label = '',
-                           type = ['jpeg', 'png', 'jpg'],
+                           type = ['jpeg', 'png'],
                            #label_visibility = 'visible'
                            )
    #st.set_option('deprecation.showfileUploaderEncoding', False)
