@@ -85,10 +85,13 @@ col1, col2 = st.columns([0.6, 0.4], gap = "medium")
 
 with col1:
    # upload image
-   file = st.sidebar.file_uploader(label = 'Upload bark image',
+  #  file = st.sidebar.file_uploader(label = 'Upload bark image',
+  #                                  type = ['jpeg', 'png', 'jpg'],
+  #                                  label_visibility = 'hidden')
+   
+   file = st.file_uploader(label = 'Upload bark image',
                            type = ['jpeg', 'png', 'jpg'],
                            label_visibility = 'hidden')
-   
    #st.set_option('deprecation.showfileUploaderEncoding', False)
 
    if file is not None:
