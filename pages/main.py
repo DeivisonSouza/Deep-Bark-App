@@ -146,20 +146,18 @@ with col1:
            st.dataframe(df.loc[:, df.columns != 'Mean'])
            
            #st.markdown("""Na tabela, estão listadas as classes (espécies) atribuídas para cada patch de imagem. A espécie ‘X’ foi atribuída à ‘X’ patches de um total de 50, com soma e média de probabilidades máximas igual a ‘y’ e ‘z’, respectivamente. Portanto, a imagem é classificada como pertencente a espécie ‘X’.""")
-           st.write('The classes (species) assigned to each image patch are listed in the table. Species ', f":blue[*{class_predict}*]" , 'was assigned to ', f":blue[*{df['Patches'][0]}*]", ':blue[patches] out of a total of 50, with sum and mean maximum probabilities equal to', f":blue[*{round(df['Sum'][0],2)}*]" ,'and', f":blue[*{x}*],", 'respectively. Therefore, the image is classified as belonging to species', f":blue[*{class_predict}*]", '.')
+           st.info(
+                  """
+                  The classes (species) assigned to each image patch are listed in the table. Species ', f":blue[*{class_predict}*]" , 'was assigned to ', f":blue[*{df['Patches'][0]}*]", ':blue[patches] out of a total of 50, with sum and mean maximum probabilities equal to', f":blue[*{round(df['Sum'][0],2)}*]" ,'and', f":blue[*{x}*],", 'respectively. Therefore, the image is classified as belonging to species', f":blue[*{class_predict}*]", '.'
+                  """
+                  )
+           
+           #st.write('The classes (species) assigned to each image patch are listed in the table. Species ', f":blue[*{class_predict}*]" , 'was assigned to ', f":blue[*{df['Patches'][0]}*]", ':blue[patches] out of a total of 50, with sum and mean maximum probabilities equal to', f":blue[*{round(df['Sum'][0],2)}*]" ,'and', f":blue[*{x}*],", 'respectively. Therefore, the image is classified as belonging to species', f":blue[*{class_predict}*]", '.')
            
            st.markdown("""---""")
            st.write(f"**Patches** = The number of patches (each 256 x 256 pixels) classified as belonging to a specific class (species). The class of each patch is determined by the highest class probability value. ")
            st.write(f"**Sum** = The sum of the maximum probabilities of the predicted class.")
            st.write(f"**Rank** = The order of predicted classes (species) based on the highest sum of probabilities.")
-           
-           st.info(
-                  """
-                  **Patches** = The number of patches (each 256 x 256 pixels) classified as belonging to a specific class (species). The class of each patch is determined by the highest class probability value.
-                  
-                  **Patches** = The number of patches (each 256 x 256 pixels) classified as belonging to a specific class (species). The class of each patch is determined by the highest class probability value.
-                  """
-                  )
            
            st.markdown("""---""")
 # with col2:
