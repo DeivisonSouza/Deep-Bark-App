@@ -88,7 +88,7 @@ with col1:
   #  file = st.sidebar.file_uploader(label = 'Upload bark image',
   #                                  type = ['jpeg', 'png', 'jpg'],
   #                                  label_visibility = 'hidden')
-   st.write('## :blue[**Upload bark image**]')
+   st.write('##### :blue[**Upload bark image**]')
    file = st.file_uploader(label = '',
                            type = ['jpeg', 'png', 'jpg'],
                            #label_visibility = 'visible'
