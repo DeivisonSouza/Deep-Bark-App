@@ -45,7 +45,10 @@ st.sidebar.markdown('[Natally Celestino Gama (Forest Engineer)](https://github.c
 df = pd.read_excel('./herbario/HFC-UFRA-RESUMO.xlsx', index_col = 0)
 #st.title(""" 👉 Location of trees - Mato Grosso, Brazil""")
 st.markdown("<h3 style='text-align: left; color: darkgreen;'>🌳LOCATION OF TREES       𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center; color: darkgreen;'> Location of trees in the State of Estado do Mato Grosso, Brazil</h3>", unsafe_allow_html=True)
 st.markdown("""---""")
+
+
 
 df['LAT'] *= -1
 df['LONG'] *= -1
