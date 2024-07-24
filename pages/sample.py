@@ -44,7 +44,7 @@ st.sidebar.markdown('[Natally Celestino Gama (Forest Engineer)](https://github.c
 #show_pages_from_config()
 
 # Set title
-st.markdown("<h3 style='text-align: left; color: darkgreen;'>🌳SAMPLE TREE BARK IMAGES       𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: left; color: darkgreen;'>🌳BARK IMAGES       𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅</h3>", unsafe_allow_html=True)
 
 # Set header
 #st.header('(A System to Recognize Tree Species in Sustainable Forest Management, Amazon, Brazil)')
