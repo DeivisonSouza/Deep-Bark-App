@@ -94,7 +94,7 @@ This application can serve as an auxiliary tool for identifying trees in the SFM
 st.markdown(
 """
 -----------------------------------------
-##### 📷**AMAZON BARK DATASET**
+###### 📷**AMAZON BARK DATASET**
 
 The bark images (rhytidome) were collected from three SFM Demonstration Units designated for timber purposes. These units are located in three municipalities in the state of Mato Grosso, Brazil: i) Fazenda Pérola in Nova Maringá, ii) Fazenda Boa Esperança in Feliz Natal, and iii) Fazenda São Nicolau in Cotriguaçu. 
 
