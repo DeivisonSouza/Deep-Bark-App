@@ -48,7 +48,7 @@ st.markdown("<h3 style='text-align: left; color: darkgreen;'>🌳BARK IMAGES    
 
 # Set header
 #st.header('(A System to Recognize Tree Species in Sustainable Forest Management, Amazon, Brazil)')
-st.markdown("<h3 style='text-align: center; color: darkgreen;'>(Sample of images of bark from 16 tree species managed in the Brazilian Amazon)</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center; color: darkgreen;'>Sample of images of bark from 16 tree species managed in the Brazilian Amazon</h3>", unsafe_allow_html=True)
 #st.markdown("<h3 style='text-align: left; color: darkgreen;'>(Sample of images of bark from 16 tree species managed in the Brazilian Amazon)</h3>", unsafe_allow_html=True)
 
 st.markdown("""---""")
