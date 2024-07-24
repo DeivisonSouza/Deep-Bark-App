@@ -112,7 +112,7 @@ with col1:
      st.image(img, use_column_width = True, channels = 'BGR', width = 150)                                  # image display
        
      with col2:
-       st.write('#######')
+       st.write('#####')
        classify = st.button('Recognize specie')  
        if classify:
          with st.spinner('Please wait! Extracting 50 patches from the image...'):
