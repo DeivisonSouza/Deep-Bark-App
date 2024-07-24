@@ -48,8 +48,6 @@ st.markdown("<h3 style='text-align: left; color: darkgreen;'>🌳LOCATION OF TRE
 st.markdown("<h3 style='text-align: center; color: darkgreen;'> Location of trees in the State of Estado do Mato Grosso, Brazil</h3>", unsafe_allow_html=True)
 st.markdown("""---""")
 
-
-
 df['LAT'] *= -1
 df['LONG'] *= -1
 
