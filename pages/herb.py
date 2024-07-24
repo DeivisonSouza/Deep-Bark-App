@@ -33,8 +33,10 @@ st.sidebar.markdown('[Natally Celestino Gama (Forest Engineer)](https://github.c
 
 # Load table (HFC)
 df = pd.read_excel('./herbario/HFC-UFRA-RESUMO.xlsx', index_col = 0)
-st.title(""" 👉 Herbarium Data """)
-st.markdown("<h3 style='text-align: left; color: darkgreen;'>(Identification of Botanical Material - Felisberto Camargo Herbarium (HFC) of Federal Rural University of the Amazon - UFRA)</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: left; color: darkgreen;'>🌳HERBARIUM DATA       𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅</h3>", unsafe_allow_html=True)
+#st.title(""" 👉 Herbarium Data """)
+st.markdown("<h3 style='text-align: center; color: darkgreen;'>Identification of Botanical Material - Felisberto Camargo Herbarium (HFC) of Federal Rural University of the Amazon - UFRA</h3>", unsafe_allow_html=True)
+#st.markdown("<h3 style='text-align: left; color: darkgreen;'>(Identification of Botanical Material - Felisberto Camargo Herbarium (HFC) of Federal Rural University of the Amazon - UFRA)</h3>", unsafe_allow_html=True)
 #st.markdown("""---""")
 st.markdown("""🌲🌳🌿‧₊˚ ⋅🌿🌱𓂃 ࣪ ִֶָ.🌲🌳🌿‧₊˚ ⋅🌿🌱𓂃 ࣪ ִֶָ.🌲🌳🌿‧₊˚ ⋅🌿🌱𓂃 ࣪ ִֶָ.🌲""")
 #st.markdown("Identificação de material botânico realizada no Herbário Felisberto Camargo (HFC) da Universidade Federal Rural da Amazônia (UFRA).")
