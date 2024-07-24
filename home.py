@@ -55,7 +55,8 @@ st.write("# Welcome! 👋")
 # Contextualização
 #st.title(""" 👉 SOBRE A APLICAÇÃO WEB """)
 st.markdown("<h3 style='text-align: left; color: darkgreen;'>🌳DEEP BARK PROJECT       𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅</h3>", unsafe_allow_html=True)
-st.markdown("<h3 style='text-align: center; color: darkgreen;'>Deep Bark Project – Deep Learning to Recognize Tree Species in Timber Forest Management in the Brazilian Amazon</h3>", unsafe_allow_html=True)
+#st.info('### Bark Project – Deep Learning to Recognize Tree Species in Timber Forest Management in the Brazilian Amazon')
+st.markdown("<h3 style='text-align: center; color: darkgreen;'>:blue-background[Deep Bark Project] – Deep Learning to Recognize Tree Species in Timber Forest Management in the Brazilian Amazon</h3>", unsafe_allow_html=True)
 
 st.markdown("""---""")
 
