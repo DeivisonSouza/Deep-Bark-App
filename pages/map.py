@@ -39,11 +39,12 @@ st.sidebar.image('./logo/image.png', use_column_width = True)
 st.sidebar.write('Developed by:')
 st.sidebar.markdown('[Deivison Venicio Souza (UFPA)](https://github.com/DeivisonSouza)')
 st.sidebar.markdown('[Natally Celestino Gama (Forest Engineer)](https://github.com/DeivisonSouza)')
-st.markdown("""---""")
+#st.markdown("""---""")
 
 # Load table (HFC)
 df = pd.read_excel('./herbario/HFC-UFRA-RESUMO.xlsx', index_col = 0)
-st.title(""" 👉 Location of trees - Mato Grosso, Brazil""")
+#st.title(""" 👉 Location of trees - Mato Grosso, Brazil""")
+st.markdown("<h3 style='text-align: left; color: darkgreen;'>🌳LOCATION OF TREES       𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅</h3>", unsafe_allow_html=True)
 st.markdown("""---""")
 
 df['LAT'] *= -1
