@@ -76,7 +76,7 @@ st.write("######")
 
 st.markdown(
 """
-##### 🔎**CONTEXTUALIZATION**
+###### 🔎**CONTEXTUALIZATION**
 
 Within the scope of Sustainable Forest Management (SFM) for timber purposes, the 100% forest inventory (IF100%), also known as the forest census, is a fundamental pre-exploratory activity. It is essential for identifying the productive potential of the forest, regulating forest production, and defining operational strategies for both exploratory and post-exploratory stages. Through IF100%, trees of economic interest (and potential value) with a pre-established minimum diameter are identified in the forest. These trees receive an identification plate, their locations are determined using GPS (Global Positioning System), and they are commonly identified by their vernacular names.
 
@@ -110,7 +110,7 @@ st.write("👉 **Master's thesis**[📓](https://ppgbc.propesp.ufpa.br/ARQUIVOS/
 # st.markdown(
 # """
 # ----------------------------------
-# #### 📷**CONJUNTO DE IMAGENS (AMAZON BARK DATASET)**
+# ###### 📷**CONJUNTO DE IMAGENS (AMAZON BARK DATASET)**
 
 # As imagens de casca (ritidoma) foram coletadas em três Unidades Demonstrativas (UDs) de Manejo Florestal Sustentável (MFS) para fins madeireiro, localizadas em três municípios do estado do Mato Grosso, Brasil: i) Fazenda Pérola – Nova Maringá; ii) Fazenda Boa Esperança – Feliz Natal; e ii) Fazenda São Nicolau – Cotriguaçu. 
 
@@ -128,7 +128,7 @@ st.write("👉 **Master's thesis**[📓](https://ppgbc.propesp.ufpa.br/ARQUIVOS/
 st.markdown(
 """
 ----------------------------------
-##### 🤖**RECOGNITION MODEL**
+###### 🤖**RECOGNITION MODEL**
 
 This web application uses a classifier (with an estimated accuracy of 95%) learned using the Support Vector Machine (SVM) algorithm and ResNet50, a pre-trained Convolutional Neural Network (CNN), as a feature extractor from digital images of tree bark. The approach of using pre-trained networks is known as Transfer Learning. The model predictions follow these steps:
 - **1 - Resizing**: High-resolution images are resized by 20%;
@@ -142,7 +142,7 @@ This web application uses a classifier (with an estimated accuracy of 95%) learn
 # st.markdown(
 # """
 # ----------------------------------
-# #### 🌳**MODELO DE RECONHECIMENTO**
+# ###### 🌳**MODELO DE RECONHECIMENTO**
 
 # Esta aplicação web utiliza um classificador (acurácia estimada de 95%) aprendido usando o algoritmo Máquina de Vetores de Suporte (MVS) e ResNet50 - uma Rede Neural Convolucional (RNC) pré-treinada - como extrator de características das imagens digitais das cascas das árvores. A abordagem de usar redes pré-treinadas é conhecido como Aprendizado por Transferência (do inglês, Transfer Learning). As predições do modelo seguem as seguintes etapas:
 # - **1 - Redimensionamento**: As imagens de alta resolução são redimensionadas na proporção de 20%;
@@ -158,7 +158,7 @@ This web application uses a classifier (with an estimated accuracy of 95%) learn
 st.markdown(
 """
 ----------------------------------
-##### 👨🏻‍💻**PROJECT AND TEAM**
+###### 👨🏻‍💻**PROJECT AND TEAM**
 
 The project began in July 2022, with the signing of a Cooperation Agreement between the **Center for Wood-Producing and Exporting Industries of the State of Mato Grosso (CIPEM)**, the project financier, and the **Federal University of Pará (UFPA)**, with administrative and financial intervention by the **Research Support and Development Foundation (FADESP)**.
 
@@ -199,7 +199,7 @@ The project has a team of experts from four institutions:
 
 st.markdown(
 """
-##### 🏫**INSTITUITIONS**
+###### 🏫**INSTITUITIONS**
 """
 )
 
