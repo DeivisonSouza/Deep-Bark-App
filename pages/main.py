@@ -68,7 +68,7 @@ st.info(
 """
 #### ⚠️**IMPORTANT!**
 
-The model available in this system was trained to **recognize only 16 commercial wood species from the Brazilian Amazon** (see the list of species in '**Herbarium**' and bark samples in '**Bark Samples**'). If images of bark from other species are used, the system will classify the image as belonging to one of the 16 species (most likely the one with the greatest similarity). This alert is important, as users might present images of bark from other species to the system. Therefore, it is crucial to expand the set of images to include new species and increase the representativeness of specimens. This should take into account the various factors that can cause variations in the external bark of trees, aiming to build a more generalist model.
+The model available in this system was trained to **recognize only 16 commercial wood species from the Brazilian Amazon** (see the list of specimes in '**Herbarium**' and bark samples in '**Bark Samples**'). If images of bark from other species are used, the system will classify the image as belonging to one of the 16 species (most likely the one with the greatest similarity). This alert is important, as users might present images of bark from other species to the system. Therefore, it is crucial to expand the set of images to include new species and increase the representativeness of specimens. This should take into account the various factors that can cause variations in the external bark of trees, aiming to build a more generalist model.
 
 - *1 - Apuleia leiocarpa* (vogel) J. F. Macbr
 - *2 - Astronium lecointei* Ducke
