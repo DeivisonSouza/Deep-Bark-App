@@ -70,6 +70,23 @@ st.info(
 
 The model available in this system was trained to **recognize only 16 commercial wood species from the Brazilian Amazon** (see the list of species in '**Herbarium**' and bark samples in '**Bark Samples**'). If images of bark from other species are used, the system will classify the image as belonging to one of the 16 species (most likely the one with the greatest similarity). This alert is important, as users might present images of bark from other species to the system. Therefore, it is crucial to expand the set of images to include new species and increase the representativeness of specimens. This should take into account the various factors that can cause variations in the external bark of trees, aiming to build a more generalist model.
 
+- *1 - Apuleia leiocarpa* (vogel) J. F. Macbr
+- *2 - Astronium lecointei* Ducke
+- *3 - Bagassa guianensis* Aubl
+- *4 - Bowdichia nitida* Spruce ex Benth
+- *5 - Cedrela odorata* L
+- *6 - Dipteryx odorata* (Aubl.) Forsyth f.
+- *7 - Erisma uncinatum* Warm
+- *8 - Goupia glabra* Aubl.
+- *9 - Hymenolobium petraueum* Ducke
+- *10 - Mezilaurus itaúba* (Meisn.) Taub. ex Mez
+- *11 - Parkia pendula* (Willd) Benth. Ex Walp.
+- *12 - Protium acrense* Daly
+- *13 - Qualea paraensis* Ducke
+- *14 - Simarouba amara* Aubl.
+- *15 - Trattinnickia burserifolia* Mart.
+- *16 - Vatairea sericea* (ducke) Ducke
+
 """
 
 )
