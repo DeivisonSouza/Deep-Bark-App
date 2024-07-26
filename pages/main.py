@@ -182,7 +182,7 @@ with col1:
            #st.write('The classes (species) assigned to each image patch are listed in the table. Species ', f":blue[*{class_predict}*]" , 'was assigned to ', f":blue[*{df['Patches'][0]}*]", ':blue[patches] out of a total of 50, with sum and mean maximum probabilities equal to', f":blue[*{round(df['Sum'][0],2)}*]" ,'and', f":blue[*{x}*],", 'respectively. Therefore, the image is classified as belonging to species', f":blue[*{class_predict}*]", '.')
            
            st.markdown("""---""")
-           st.write(f"**Patches** = The number of patches (each 256 x 256 pixels) classified as belonging to a specific class (species). The class of each patch is determined by the highest class probability value. ")
+           st.write(f"**Patches** = The number of patches (each 224 x 224 pixels) classified as belonging to a specific class (species). The class of each patch is determined by the highest class probability value. ")
            st.write(f"**Sum** = The sum of the maximum probabilities of the predicted class.")
            st.write(f"**Rank** = The order of predicted classes (species) based on the highest sum of probabilities.")
            
