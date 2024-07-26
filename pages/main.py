@@ -116,7 +116,7 @@ with col1:
    st.write('##### :blue[**Upload bark image**]👇')
    st.write('###### :red[*⚠️ The minimum resolution required is: 1200 x 1200 pixels*]')
    
-   file = st.file_uploader(label = 'Upload bark image',
+   file = st.file_uploader(label = 'Upload bark image...',
                            type = ['jpeg', 'png'],
                            label_visibility = 'hidden'
                            )
