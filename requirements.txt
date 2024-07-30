@@ -9,3 +9,4 @@ st-annotated-text
 python-utils
 scikit-learn
 openpyxl
+pickle

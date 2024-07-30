@@ -10,6 +10,7 @@ from keras.models import load_model, Model
 from keras.layers import GlobalAveragePooling2D
 import keras
 import pickle
+import joblib
 #from streamlit_extras.app_logo import add_logo
 from folium import GeoJson
 import json
@@ -104,6 +105,7 @@ def extractFeature(patches, feature_extractor):
 @st.cache_resource(show_spinner = False)                               # 👈 Add the caching decorator
 def classifier():
     model = pickle.load(open('./model/best_resnet_svc.pickle', "rb"))
+    #model = joblib.load('./model/best_resnet_svc.joblib')
     return model
 
 #-----------------------------------------------------------------------------#
