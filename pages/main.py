@@ -87,7 +87,6 @@ The 16 recognized species are:
 - *14 - Simarouba amara* Aubl.
 - *15 - Trattinnickia burserifolia* Mart.
 - *16 - Vatairea sericea* (ducke) Ducke
-
 """
 
 )
