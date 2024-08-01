@@ -1,4 +1,6 @@
-# Deep Bark App
+# 🌳DEEP BARK APP: A System to Recognize Tree Species in Sustainable Forest Management Based on Bark Images, Amazon, Brazil 𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅
+
+----------------------------------
 
 ###### 🔎**CONTEXTUALIZATION**
 
@@ -12,6 +14,8 @@ In this context, the "**Deep Bark Project – Deep Learning to Recognize Tree Sp
 
 This application can serve as an auxiliary tool for identifying trees in the SFM for logging purposes. It can be used by botanical identifiers, environmental agency technicians, and laypeople. It is expected to enhance accuracy in species identification, particularly for commonly misidentified species, thus minimizing the ecological and economic impacts of identification errors in IF100%. Ultimately, this technology has the potential to improve species identification across various regions of the Amazon.
 
+----------------------------------
+
 ###### 📷**AMAZON BARK DATASET**
 
 The bark images (rhytidome) were collected from three SFM Demonstration Units designated for timber purposes. These units are located in three municipalities in the state of Mato Grosso, Brazil: i) Fazenda Pérola in Nova Maringá, ii) Fazenda Boa Esperança in Feliz Natal, and iii) Fazenda São Nicolau in Cotriguaçu. 
@@ -24,6 +28,8 @@ The botanical material was sent to the Felisberto Camargo Herbarium (HFC) of the
 
 👉 **Master's thesis**[📓](https://ppgbc.propesp.ufpa.br/ARQUIVOS/dissertacoes/2024/Natally_Celestino_07.06.24.pdf)
 
+----------------------------------
+
 ###### 🤖**RECOGNITION MODEL**
 
 This web application uses a classifier (with an estimated accuracy of 95%) learned using the Support Vector Machine (SVM) algorithm and ResNet50, a pre-trained Convolutional Neural Network (CNN), as a feature extractor from digital images of tree bark. The approach of using pre-trained networks is known as Transfer Learning. The model predictions follow these steps:
@@ -32,6 +38,8 @@ This web application uses a classifier (with an estimated accuracy of 95%) learn
 - **3 - Pre-processing**: Applies the pre-processing steps defined by the pre-trained ResNet50 network to the 50 patches;
 - **4 - Feature Extraction**: Utilizes the ResNet50 model with ImageNet weights and all convolutional layers frozen to extract features from the 50 patches; and
 - **5 - Classification**: Employs a classifier trained on the **“Amazon Bark”** dataset to predict the class probability for each patche. A majority vote strategy, based on the sum of maximum class probabilities, is then applied to estimate the highest average class probability. Note that the classifier is currently configured to predict up to 16 classes. Future efforts will focus on expanding the image collection, including new species, to enhance specimen representativeness. This expansion will account for various factors influencing bark variations across tree species.
+
+----------------------------------
 
 ###### 👨🏻‍💻**PROJECT AND TEAM**
 
