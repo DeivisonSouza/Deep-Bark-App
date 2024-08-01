@@ -32,3 +32,17 @@ This web application uses a classifier (with an estimated accuracy of 95%) learn
 - **3 - Pre-processing**: Applies the pre-processing steps defined by the pre-trained ResNet50 network to the 50 patches;
 - **4 - Feature Extraction**: Utilizes the ResNet50 model with ImageNet weights and all convolutional layers frozen to extract features from the 50 patches; and
 - **5 - Classification**: Employs a classifier trained on the **“Amazon Bark”** dataset to predict the class probability for each patche. A majority vote strategy, based on the sum of maximum class probabilities, is then applied to estimate the highest average class probability. Note that the classifier is currently configured to predict up to 16 classes. Future efforts will focus on expanding the image collection, including new species, to enhance specimen representativeness. This expansion will account for various factors influencing bark variations across tree species.
+
+###### 👨🏻‍💻**PROJECT AND TEAM**
+
+The project began in July 2022, with the signing of a Cooperation Agreement between the **Center for Wood-Producing and Exporting Industries of the State of Mato Grosso (CIPEM)**, the project financier, and the **Federal University of Pará (UFPA)**, with administrative and financial intervention by the **Research Support and Development Foundation (FADESP)**.
+
+The project has a team of experts from four institutions:
+
+- Prof. Dr. Deivison Venicio Souza (UFPA) - Coordinator (deivisonvs@ufpa.br)/[📄](http://lattes.cnpq.br/9063094443073532)/[🆔](https://orcid.org/0000-0002-2975-0927)
+- Prof. Dr. Samuel de Pádua Chaves e Carvalho (UFRRJ) - (samuel.carvalho@ufrrj.br)/[📄](http://lattes.cnpq.br/6176482316661283)/[🆔](https://orcid.org/0000-0002-5590-9049)
+- Prof. Dr. Eduardo da Silva Leal (UFRA) - (eduardo.leal@ufra.edu.br)/[📄](http://lattes.cnpq.br/1968764406721519)/[🆔]()
+- Prof. Dr. Luiz Eduardo Soares de Oliveira (UFPR) - (Luiz.oliveira@ufpr.br)/[📄](http://lattes.cnpq.br/8607171759049558)/[🆔](https://orcid.org/0000-0002-0595-5370)
+- Profa. Dra. Márcia Orie de Sousa Hamada (UFPA) - (marciahamada@ufpa.br)/[📄](http://lattes.cnpq.br/9880180163595986)/[🆔]()
+- Natally Celestino Gama (Forest Engineer) - (natallygama28@gmail.com)/[📄](http://lattes.cnpq.br/6493402735030303)/[🆔](https://orcid.org/0000-0001-5131-9220)
+----------------------------------
