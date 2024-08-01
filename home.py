@@ -63,7 +63,7 @@ st.markdown("""---""")
 # st.markdown(
 # """
 # ----------------------------------
-# #### 🔎**CONTEXTUALIZAÇÃO**
+# #### 🔎**CONTEXTUALIZAÇÃO.**
 
 # No âmbito do Manejo Florestal Sustentável - MFS para fins madeireiros, o inventário florestal 100% - IF100% (ou censo florestal) é uma atividade pré-exploratória fundamental para identificação do potencial produtivo da floresta, regulação da produção florestal e definição de estratégias operacionais nas etapas exploratórias e pós-exploratórias. Por meio do IF100%, as árvores de interesse econômico (e de valor potencial) e com diâmetro mínimo pré-estabelecido são descobertas na floresta, recebem uma placa de identificação, têm sua localização definida com auxílio de GPS (do inglês, Global Positioning System – GPS) e comumente são identificadas por nomes vernaculares. 
 
