@@ -54,9 +54,9 @@ st.write("# Welcome! 👋")
 
 # Contextualização
 #st.title(""" 👉 SOBRE A APLICAÇÃO WEB """)
-st.markdown("<h3 style='text-align: left; color: darkgreen;'>🌳DEEP BARK PROJECT       𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: left; color: darkgreen;'>🌳DEEP FLORA       𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅</h3>", unsafe_allow_html=True)
 #st.info('### Bark Project – Deep Learning to Recognize Tree Species in Timber Forest Management in the Brazilian Amazon')
-st.markdown("<h3 style='text-align: center; color: darkgreen;'> Deep Bark Project – Deep Learning to Recognize Tree Species in Timber Forest Management in the Brazilian Amazon</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center; color: darkgreen;'> Deep Flora Project – Deep Learning to Recognize Tree Species in Timber Forest Management in the Brazilian Amazon</h3>", unsafe_allow_html=True)
 
 st.markdown("""---""")
 
@@ -87,7 +87,7 @@ The identification of flora species is undoubtedly one of the main challenges of
 
 Procópio and Secco (2008) reported the grouping of species when studying the identification of trees called "Tauari" in managed areas in the central and eastern logging poles of the State of Pará. For example, in the central pole, *Couratari guianensis* grouped three species: *Couratari guianensis*, *C. oblongifolia*, and *C. stellata*. Lacerda and Nimmo (2010) also reported that 43.5% (132 species) of all species identified by botanical description were not included in the tree identification carried out in the IF-100%.
 
-In this context, the "**Deep Bark Project – Deep Learning to Recognize Tree Species in Timber Forest Management in the Brazilian Amazon**" emerged. The objective of this project was to develop a web application, based on artificial intelligence and computer vision, to recognize trees of commercially valuable species in forest censuses, within the scope of SFM for timber purposes. **The classifier available in this web application has an estimated accuracy of 95% and can be used to recognize 16 species of commercial timber value.**
+In this context, the "**Deep Flora – Deep Learning to Recognize Tree Species in Timber Forest Management in the Brazilian Amazon**" emerged. The objective of this project was to develop a web application, based on artificial intelligence and computer vision, to recognize trees of commercially valuable species in forest censuses, within the scope of SFM for timber purposes. **The classifier available in this web application has an estimated accuracy of 95% and can be used to recognize 16 species of commercial timber value.**
 
 This application can serve as an auxiliary tool for identifying trees in the SFM for logging purposes. It can be used by botanical identifiers, environmental agency technicians, and laypeople. It is expected to enhance accuracy in species identification, particularly for commonly misidentified species, thus minimizing the ecological and economic impacts of identification errors in IF100%. Ultimately, this technology has the potential to improve species identification across various regions of the Amazon.
 """
