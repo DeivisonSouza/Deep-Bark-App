@@ -56,21 +56,19 @@ st.write("# Welcome! 👋")
 #st.title(""" 👉 SOBRE A APLICAÇÃO WEB """)
 st.markdown("<h3 style='text-align: left; color: darkgreen;'>🌳DEEP FLORA       𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅</h3>", unsafe_allow_html=True)
 
-col1, col2, col3 = st.columns([0.45, 0.25, 0.25])
-
-with col2:
-   st.image('./logo/Treedeepflora.png', width = 130)
-
-col1, col2 = st.columns([0.01, 1], gap='small')
+col1, col2, col3 = st.columns([0.3,0.3,0.3])
 
 with col2:
    new_title = "<h3 style='text-align: center; color: darkgreen;'> Deep Flora – Deep Learning to Recognize Tree Species in Timber Forest Management in the Brazilian Amazon</h3>"
    st.markdown(new_title, unsafe_allow_html = True)
 
+with col1:
+   st.image('./logo/Treedeepflora.png', width = 150)
+
+
 #st.image('./logo/Treedeepflora.png', width = 150)
-#st.info('### Bark Project – Deep Learning to Recognize Tree Species in Timber Forest Management in the Brazilian Amazon')
-#st.markdown("<h3 style='text-align: center; color: darkgreen;'> Deep Flora Project – Deep Learning to Recognize Tree Species in Timber Forest Management in the Brazilian Amazon</h3>", unsafe_allow_html=True)
-st.markdown("""---""")
+#st.markdown("<h3 style='text-align: center; color: darkgreen;'> Deep Flora – Deep Learning to Recognize Tree Species in Timber Forest Management in the Brazilian Amazon</h3>", unsafe_allow_html=True)
+#st.markdown("""---""")
 
 # st.markdown(
 # """
