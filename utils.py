@@ -53,7 +53,7 @@ def build_markup_for_logo(
     png_file,
     background_position="50% 50%",
     margin_top="-25%",
-    image_width="60%",
+    image_width="90%",
     image_height="",
     #padding_top='120px',
 ):
