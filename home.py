@@ -54,7 +54,7 @@ st.write("# Welcome! 👋")
 
 # Contextualização
 #st.title(""" 👉 SOBRE A APLICAÇÃO WEB """)
-st.markdown("<h3 style='text-align: left; color: darkgreen;'>🌳DEEP FLORA       𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅</h3>", unsafe_allow_html=True)
+#st.markdown("<h3 style='text-align: left; color: darkgreen;'>🌳DEEP FLORA       𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅</h3>", unsafe_allow_html=True)
 
 col1, col2, col3 = st.columns([0.1,0.9,0.1])
 
