@@ -54,7 +54,6 @@ st.sidebar.markdown('[Natally Celestino Gama (Forest Engineer)](https://github.c
 
 # Set title
 st.markdown("<h3 style='text-align: left; color: darkgreen;'>🌳DEEP BARK APP       𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅𓂃⋅</h3>", unsafe_allow_html=True)
-
 #st.title(""" 👉 DEEP BARK WEB APP """)
 
 # Set header
