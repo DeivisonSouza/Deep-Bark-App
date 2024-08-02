@@ -20,7 +20,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # Logo
-add_logo('./logo/Treedeepflora.png')
+add_logo('./logo/deepflora.png')
 #add_logo("./assets/images/LMFTCA.png", height=200)
 
 # Reduce white space top of the page
