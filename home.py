@@ -1,5 +1,5 @@
 import streamlit as st
-from utils import set_background
+from utils import set_background, add_logo
 from st_pages import show_pages_from_config, add_page_title
 from PIL import Image
 #from streamlit_extras.app_logo import add_logo
@@ -20,6 +20,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # Logo
+add_logo('./logo/Treedeepflora.png')
 #add_logo("./assets/images/LMFTCA.png", height=200)
 
 # Reduce white space top of the page

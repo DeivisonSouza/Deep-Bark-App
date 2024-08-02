@@ -42,6 +42,49 @@ def set_background(image_file):
     st.markdown(style, unsafe_allow_html=True)
 
 #-----------------------------------------------------------------------------#
+# Logo (Top Sidebar)
+#-----------------------------------------------------------------------------#
+def get_base64_of_bin_file(png_file):
+    with open(png_file, "rb") as f:
+        data = f.read()
+    return base64.b64encode(data).decode()
+
+def build_markup_for_logo(
+    png_file,
+    background_position="50% 50%",
+    margin_top="-25%",
+    image_width="60%",
+    image_height="",
+    #padding_top='120px',
+):
+    binary_string = get_base64_of_bin_file(png_file)
+    return """
+            <style>
+                [data-testid="stSidebarNav"] {
+                    background-image: url("data:image/png;base64,%s");
+                    background-repeat: no-repeat;
+                    background-position: %s;
+                    margin-top: %s;
+                    background-size: %s %s;
+                    padding-top: 150px;
+                }
+            </style>
+            """ % (
+        binary_string,
+        background_position,
+        margin_top,
+        image_width,
+        image_height,
+    )
+
+def add_logo(png_file):
+    logo_markup = build_markup_for_logo(png_file)
+    st.markdown(
+        logo_markup,
+        unsafe_allow_html=True,
+    )
+
+#-----------------------------------------------------------------------------#
 # Create patches
 #-----------------------------------------------------------------------------#
 def createPatches(image, file):
@@ -134,30 +177,9 @@ def predition(model, feature):
 
     return df
 
-def add_logo():
-    st.markdown(
-        """
-        <style>
-            [data-testid="stSidebarNav"] {
-                background-image: ./LMFTCA.png;
-                background-repeat: no-repeat;
-                padding-top: 120px;
-                background-position: 20px 20px;
-            }
-            [data-testid="stSidebarNav"]::before {
-                content: "My Company Name";
-                margin-left: 20px;
-                margin-top: 20px;
-                font-size: 30px;
-                position: relative;
-                top: 100px;
-            }
-        </style>
-        """,
-        unsafe_allow_html=True,
-    )
-
+#-----------------------------------------------------------------------------#
 # Wide page config
+#-----------------------------------------------------------------------------#
 def wide_space_default():
     st.set_page_config(layout='wide')
 
