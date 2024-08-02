@@ -22,5 +22,3 @@ icon = "🍃"
 path = "pages/map.py"
 name = "Location of Trees"
 icon = "🗺️"
-
-
